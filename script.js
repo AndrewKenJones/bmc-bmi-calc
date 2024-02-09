@@ -19,13 +19,13 @@ form.addEventListener('submit', function (e) {
         weight_input.focus();
   } else {
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
-    //Show result text
+    //Show result text << Add different colours to the pu-box bmi-result ?? Yellow Green Red - Under Normal Over
     if (bmi < 25) {
-        text = 'You are underweight';
+        text = 'You are underweight.';
       } else if (bmi >= 25 && bmi < 30) {
-        text = 'You are a healthy weight';
+        text = 'You are a healthy weight.';
       } else {
-        text = 'You are overweight';
+        text = 'You are overweight.';
       }
       //Show pu-box
       popup.style.display = 'block';

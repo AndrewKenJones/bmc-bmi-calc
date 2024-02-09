@@ -68,7 +68,7 @@ body {
     outline: none;
 }
 
-.form-con .form input[type="submit"]{
+.form-con .form input[type="submit"] {
     background-color: rgb(83, 104, 130);
     font-size: 16px;
     font-weight: bold;
@@ -78,7 +78,7 @@ body {
     transition: 0.5s all;
 }
 
-.form-con .form input[type="submit"]:hover{
+.form-con .form input[type="submit"]:hover {
     background-color: rgb(120, 178, 76);
 }
 
@@ -107,7 +107,7 @@ body {
     margin: 0 auto;
 }
 
-.bmi-text{
+.bmi-text {
     margin: 20px 0px;
     background: white;
     padding: 10px 10px;
@@ -116,7 +116,16 @@ body {
     font-weight: bold;
 }
 
-.close-btn{
+.nhs-link {
+    margin: 20px 0px;
+    background: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.close-btn {
     padding: 10px 30px;
     font-size: 16px;
     background: rgb(226, 102, 119);

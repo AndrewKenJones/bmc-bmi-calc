@@ -3,7 +3,7 @@
 
 Body Mass Index Calculator built using HTML5, CSS & Javascript.
 
-Allows user to calculate their BMI score based on their height / weigtht.
+Allows user to calculate their BMI score based on their height / weight.
 
 -- To do;
 NHS Links 
