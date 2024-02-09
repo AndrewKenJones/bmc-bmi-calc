@@ -8,10 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-cont">
-        <div class="image-cont">
-            <img src="img/bmi.jpg" alt="BMI icon">
+    <div class="main-con">
+        <div class="image-con">
+            <img src="img/bmi.png" alt="BMI icon">
+        </div>
+        <div class="form-con">
+            <h1><b>B</b>ody <b>M</b>ass <b>I</b>ndex</h1>
+            <h2>Calculator</h2>
+            <div class="form">
+                <form action="">
+                    <!-- <input class="age" type="number" placeholder="Enter your age"> -->
+                    <!-- gender radio buttons?? see how JS works first -->
+                    <input class="height" type="text" placeholder="Enter height (cm)">
+                    <input class="weight" type="text" placeholder="Enter weight (kg)">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="pu-box">
+            <div class="bmi-result">00.00</div>
+            <div class="bmi-text">Result text</div>
+            <div class="close-btn">Close</div>
         </div>
     </div>
 </body>
+    <script src="script.js"></script>
 </html>
