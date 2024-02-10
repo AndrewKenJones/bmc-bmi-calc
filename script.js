@@ -31,7 +31,7 @@ form.addEventListener('submit', function (e) {
         text = 'You are overweight.';
       }
       //Show popup-box
-      popup.style.display = 'flex';
+      popup.style.display = 'block';
       //Display BMI result
       bmi_score.innerHTML = bmi;
       //Display BMI text
