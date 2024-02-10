@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Webpage title -->
     <title>BMI Calculator</title>
     <!-- CSS ref. -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main content container -->
     <div class="main-con">
+        <!-- Image content container -->
         <div class="image-con">
             <img src="img/bmi.png" alt="BMI icon">
         </div>
+        <!-- Form / Calculator content container -->
         <div class="form-con">
-            <h1><b>B</b>ody <b>M</b>ass <b>I</b>ndex</h1>
+            <!-- BMI titles -->
+            <h1>Body Mass Index</h1>
             <h2>Calculator</h2>
+            <!-- BMI form + data input fields / placeholder text -->
             <div class="form">
                 <form action="">
-                    <!-- <input class="age" type="number" placeholder="Enter your age"> -->
-                    <!-- gender radio buttons?? see how JS works first -->
                     <input class="height" type="text" placeholder="Enter height (cm)">
                     <input class="weight" type="text" placeholder="Enter weight (kg)">
+                    <!-- Submit button / field -->
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
-        <div class="pu-box">
+        <!-- Popup menu + value classes to display + NHS info. -->
+        <div class="popup-box">
             <div class="bmi-result">00.00</div>
             <div class="bmi-text">Result text</div>
             <div class="nhs-link">Please visit the <a href="https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/" target="blank" ref="noopener noreferrer">NHS BMI Calculator</a> for further information.</div>
@@ -33,5 +39,6 @@
         </div>
     </div>
 </body>
+    <!-- JS ref. -->
     <script src="script.js"></script>
 </html>
