@@ -136,10 +136,10 @@ body {
 }
 /* Mobile respon. */
 @media screen and (max-width: 768px) {
-    .form-container{
+    .form-con{
         width: 100%;
     }
-    .image-container{
+    .image-con{
         display: none;
     }
 }
