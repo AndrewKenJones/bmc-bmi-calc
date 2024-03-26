@@ -135,10 +135,10 @@ body {
     cursor: pointer;
 }
 /* Sign text CSS */
-.form-con p {
-    color: #333;
+.popup-box p {
+    color: white;
 }
-.form-con p span {
+.popup-box p span {
     color: #30B3E9;
 }
 /* Mobile respon. */
