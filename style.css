@@ -134,6 +134,13 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+/* Sign text CSS */
+.form-con p {
+    color: #333;
+}
+.form-con p span {
+    color: #30B3E9;
+}
 /* Mobile respon. */
 @media screen and (max-width: 768px) {
     .form-con{
